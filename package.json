@@ -1,0 +1,23 @@
+{
+  "name": "nebulus-js",
+  "version": "1.0.0",
+  "description": "Nebulus (JavaScript)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server --cors=*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oklemenz/NebulusJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oklemenz/NebulusJS/issues"
+  },
+  "homepage": "https://github.com/oklemenz/NebulusJS#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}

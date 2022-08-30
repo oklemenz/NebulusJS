@@ -1,0 +1,52 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@media (orientation: portrait) {
+    html,
+    body {
+        overflow: hidden;
+    }
+}
+
+body,
+body * {
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        margin-top: 0.5px;
+    }
+}
+
+input {
+    user-select: auto;
+    -webkit-user-select: auto;
+}
+
+#canvas::selection,
+#canvas::-moz-selection,
+#canvas::-webkit-selection {
+    background: transparent;
+}
+
+#canvas {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    clear: both;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
