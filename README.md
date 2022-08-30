@@ -6,6 +6,11 @@ Nebulus reimplementation written in HTML5 / JavaScript
 
 - Browser: https://nebulusjs.oklemenz.de
 - Keyboard
+  - `Cursor keys`: Movement
+    - `Left/Right key`: Walk Left/Right
+    - `Up key`: Enter Door, Lift Up
+    - `Down key`: Lift Down
+  - `X/C`: Jump (when walking), Shoot (when still) 
 
 ## Play Mobile
 
@@ -14,7 +19,7 @@ Nebulus reimplementation written in HTML5 / JavaScript
 - Add to Home Screen to start as Fullscreen App
 - Touch Controls (tap area on screen)
   - Game:
-    - Use virtual Gamepad
+    - Use Virtual Gamepad
 
 ## Play GitHub Version
 
