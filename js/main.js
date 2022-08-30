@@ -565,7 +565,7 @@ function p8_run_cart() {
     // p8_crt_effect_init(canvas);
   }
   e.type = "application/javascript";
-  e.src = "nebulus.js";
+  e.src = "js/nebulus.js";
   e.id = "e_script";
 
   document.body.appendChild(e); // load and run
