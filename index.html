@@ -91,7 +91,7 @@
 
 </head>
 
-<body style="padding:0px; margin:0px; background-color:#000; color:#ccc">
+<body>
 <div id="body_0"> <!-- hide this when playing in mobile (p8_touch_detected) so that elements don't affect layout -->
 
     <!-- Add any content above the cart here -->
@@ -175,10 +175,8 @@
                     <div id="touch_controls_gfx"
                          style="pointer-events: none; display: none; position: fixed; top: 0px; left: 0px; border: 0px; width: 100vw; height: 100vh;">
 
-                        <img src="https://v6p9d9t4.ssl.hwcdn.net/html/5534881/index.html" id="controls_right_panel"
-                             style="position:absolute; opacity:0.5;">
-                        <img src="https://v6p9d9t4.ssl.hwcdn.net/html/5534881/index.html" id="controls_left_panel"
-                             style="position:absolute;  opacity:0.5;">
+                        <img src="index.html" id="controls_right_panel" style="position:absolute; opacity:0.5;">
+                        <img src="index.html" id="controls_left_panel" style="position:absolute; opacity:0.5;">
 
 
                     </div> <!-- touch_controls_gfx -->
@@ -250,6 +248,8 @@
 		gl_Position = vec4(pos.xy, 0, 1);
 		uv = pos.zw;
 	}
+
+
 
 
 </script>
@@ -381,6 +381,8 @@
 	}
 
 
+
+
 </script>
 
 <script id="blur-fragment-shader" type="x-shader/x-fragment">
@@ -402,6 +404,8 @@
 	}
 
 
+
+
 </script>
 
 <script id="accumulate-fragment-shader" type="x-shader/x-fragment">
@@ -415,6 +419,8 @@
 		vec4 b = texture2D(tex1, uv);
 		gl_FragColor = max(a, b * 0.96);
 	}
+
+
 
 
 </script>
@@ -432,6 +438,8 @@
 	}
 
 
+
+
 </script>
 
 <script id="copy-fragment-shader" type="x-shader/x-fragment">
@@ -441,6 +449,8 @@
 	void main() {
 		gl_FragColor = texture2D(tex0, uv);
 	}
+
+
 
 
 </script>
