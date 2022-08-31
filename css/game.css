@@ -50,12 +50,3 @@ input {
     -ms-user-select: none;
     user-select: none;
 }
-
-@media (orientation: landscape) {
-    #controls_right_panel {
-        margin-left: -30px;
-    }
-    #controls_left_panel {
-        padding-left: 30px;
-    }
-}
